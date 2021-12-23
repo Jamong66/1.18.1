@@ -1,0 +1,20 @@
+[02:20:49] [User Authenticator #29/INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[02:20:49] [Server thread/INFO]: Jamong6 joined the game
+[02:20:49] [Server thread/INFO]: Jamong6[/125.178.171.248:57523] logged in with entity id 573825 at ([world]507.5, -56.4375, 833.5)
+[02:21:29] [Server thread/INFO]: Jamong6 issued server command: /gamemode creative
+[02:21:29] [Server thread/INFO]: [Jamong6: Set own game mode to Creative Mode]
+[02:21:52] [Server thread/INFO]: Jamong6 issued server command: /gamemode survival
+[02:21:52] [Server thread/INFO]: [Jamong6: Set own game mode to Survival Mode]
+[02:26:35] [Server thread/INFO]: Villager EntityVillager['Villager'/575684, uuid='600c6dca-5250-4343-b790-3ecd186bfc8b', l='ServerLevel[world]', x=531.11, y=69.00, z=863.10, cpos=[33, 53], tl=36387, v=true] died, message: 'Villager was squished too much'
+[02:27:45] [Server thread/INFO]: Villager EntityVillager['Villager'/575685, uuid='40ce8d8e-b5c8-4e95-959b-85f5f6100149', l='ServerLevel[world]', x=531.12, y=69.00, z=863.11, cpos=[33, 53], tl=30411, v=true] died, message: 'Villager was squished too much'
+[02:28:15] [Server thread/INFO]: Villager EntityVillager['Villager'/575683, uuid='0bb16ba6-c026-4d4d-8293-74f812a9082a', l='ServerLevel[world]', x=531.12, y=69.00, z=863.12, cpos=[33, 53], tl=45022, v=true] died, message: 'Villager was squished too much'
+[02:32:26] [Server thread/INFO]: Villager EntityVillager['Villager'/575686, uuid='cb278666-84bc-4db4-b11f-c7ee0bfc5566', l='ServerLevel[world]', x=531.12, y=69.00, z=863.14, cpos=[33, 53], tl=29217, v=true] died, message: 'Villager was squished too much'
+[02:43:02] [Server thread/INFO]: Villager EntityVillager['Villager'/575682, uuid='11287bbf-5c85-4525-a693-f15dee56d61f', l='ServerLevel[world]', x=531.11, y=69.00, z=863.70, cpos=[33, 53], tl=76366, v=true] died, message: 'Villager was squished too much'
+[02:53:56] [Server thread/INFO]: Villager EntityVillager['Villager'/575689, uuid='4fc164f0-4baa-4afc-9d57-ae07fd9fa726', l='ServerLevel[world]', x=531.12, y=69.00, z=863.10, cpos=[33, 53], tl=38575, v=true] died, message: 'Villager was squished too much'
+[02:57:14] [Server thread/INFO]: Jamong6 lost connection: Disconnected
+[02:57:14] [Server thread/INFO]: Jamong6 left the game
+[05:11:56] [User Authenticator #30/INFO]: UUID of player Losezip is 164016f8-8881-3a25-b288-06d7990d1544
+[05:11:56] [Server thread/INFO]: Losezip joined the game
+[05:11:56] [Server thread/INFO]: Losezip[/112.168.183.161:50857] logged in with entity id 579645 at ([world]196.55486725138954, -52.40039946422138, 924.4012676063983)
+[05:17:36] [Server thread/INFO]: Losezip lost connection: Disconnected
+[05:17:36] [Server thread/INFO]: Losezip left the game

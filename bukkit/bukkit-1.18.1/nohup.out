@@ -1,0 +1,943 @@
+Starting org.bukkit.craftbukkit.Main
+System Info: Java 17 (OpenJDK 64-Bit Server VM 17.0.1+12-LTS) Host: Linux 5.11.0-1022-aws (amd64)
+Loading libraries, please wait...
+2021-12-21 03:44:16,161 ServerMain WARN Advanced terminal features are not available in this environment
+[03:44:21 INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:44:21 INFO]: Reloading ResourceManager: Default, bukkit
+[03:44:22 INFO]: Loaded 7 recipes
+[03:44:24 INFO]: Starting minecraft server version 1.18.1
+[03:44:24 WARN]: ****************************
+[03:44:24 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[03:44:24 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[03:44:24 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[03:44:24 WARN]: ****************************
+[03:44:24 INFO]: Loading properties
+[03:44:24 INFO]: This server is running Paper version git-Paper-77 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 5ad1d9a)
+[03:44:24 INFO]: Server Ping Player Sample Count: 12
+[03:44:24 INFO]: Using 4 threads for Netty based IO
+[03:44:24 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:111) ~[paper-1.18.1.jar:git-Paper-77]
+[03:44:24 INFO]: Default game type: SURVIVAL
+[03:44:24 INFO]: Generating keypair
+[03:44:24 INFO]: Starting Minecraft server on *:25565
+[03:44:24 INFO]: Using epoll channel type
+[03:44:24 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:44:24 INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[03:44:25 INFO]: [WorldEdit] Loading WorldEdit v7.2.8+6008-1246d61
+[03:44:26 INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6431c6b6]
+[03:44:26 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:44:26 INFO]: [WorldEdit] Enabling WorldEdit v7.2.8+6008-1246d61
+[03:44:26 INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[03:44:26 INFO]: WEPIF: Using the Bukkit Permissions API.
+[03:44:26 INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R1.PaperweightAdapter as the Bukkit adapter
+[03:44:27 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:44:27 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:44:27 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:44:27 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:44:27 INFO]: Preparing level "world"
+[03:44:29 INFO]: Preparing start region for dimension minecraft:overworld
+[03:44:30 INFO]: Preparing spawn area: 0%
+[03:44:30 INFO]: Preparing spawn area: 0%
+[03:44:30 INFO]: Preparing spawn area: 0%
+[03:44:30 INFO]: Preparing spawn area: 0%
+[03:44:31 INFO]: Preparing spawn area: 0%
+[03:44:31 INFO]: Preparing spawn area: 0%
+[03:44:32 INFO]: Time elapsed: 2739 ms
+[03:44:32 INFO]: Preparing start region for dimension minecraft:the_nether
+[03:44:32 INFO]: Preparing spawn area: 0%
+[03:44:32 INFO]: Preparing spawn area: 0%
+[03:44:33 INFO]: Preparing spawn area: 0%
+[03:44:33 INFO]: Preparing spawn area: 0%
+[03:44:34 INFO]: Preparing spawn area: 0%
+[03:44:34 INFO]: Preparing spawn area: 0%
+[03:44:34 INFO]: Time elapsed: 2593 ms
+[03:44:34 INFO]: Preparing start region for dimension minecraft:the_end
+[03:44:34 INFO]: Preparing spawn area: 0%
+[03:44:35 INFO]: Preparing spawn area: 0%
+[03:44:35 INFO]: Preparing spawn area: 0%
+[03:44:36 INFO]: Time elapsed: 1358 ms
+[03:44:36 INFO]: Running delayed init tasks
+[03:44:36 INFO]: Done (11.746s)! For help, type "help"
+[03:44:36 INFO]: Timings Reset
+[03:44:36 WARN]: UUID of added entity already exists: EntityPig['Pig'/50, uuid='3ed7f8e2-d560-4625-a579-002b85e8a4fe', l='ServerLevel[world]', x=227.97, y=67.00, z=1105.91, cpos=[14, 69], tl=39091, v=false]
+[03:44:36 WARN]: UUID of added entity already exists: EntityCow['Cow'/104, uuid='93502115-e15b-4a9a-bf90-c7de650e1f6c', l='ServerLevel[world]', x=170.92, y=119.00, z=835.92, cpos=[10, 52], tl=817074, v=false]
+[03:45:20 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-77 (MC: 1.18.1) ---
+[03:45:20 WARN]: Can't keep up! Is the server overloaded? Running 25665ms or 513 ticks behind
+[03:45:20 ERROR]: The server has not responded for 25 seconds! Creating thread dump
+[03:45:20 ERROR]: ------------------------------
+[03:45:20 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[03:45:20 ERROR]: ------------------------------
+[03:45:20 ERROR]: Current Thread: Server thread
+[03:45:20 ERROR]: 	PID: 22 | Suspended: false | Native: false | State: RUNNABLE
+[03:45:20 ERROR]: 	Stack:
+[03:45:20 ERROR]: 		java.base@17.0.1/java.util.AbstractCollection.toArray(AbstractCollection.java:144)
+[03:45:20 ERROR]: 		java.base@17.0.1/java.util.ArrayList.<init>(ArrayList.java:181)
+[03:45:20 ERROR]: 		com.destroystokyo.paper.util.map.QueuedChangesMapLong2Object.getVisibleValuesCopy(QueuedChangesMapLong2Object.java:144)
+[03:45:20 ERROR]: 		net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:979)
+[03:45:20 ERROR]: 		net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:934)
+[03:45:20 ERROR]: 		net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:927)
+[03:45:20 ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:625)
+[03:45:20 ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1607)
+[03:45:20 ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:480)
+[03:45:20 ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1470)
+[03:45:20 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264)
+[03:45:20 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[03:45:20 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$3933/0x000000080142df08.run(Unknown Source)
+[03:45:20 ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[03:45:20 ERROR]: ------------------------------
+[03:45:20 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[03:45:20 ERROR]: ------------------------------
+[03:46:53 INFO]: UUID of player Doodle is 95e97f46-4119-3538-a521-463974fa130b
+[03:46:54 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[03:46:54 INFO]: Doodle joined the game
+[03:46:54 INFO]: Doodle[/125.178.168.119:59726] logged in with entity id 161 at ([world]491.1118997437299, -56.0, 853.7153374814364)
+[03:46:54 INFO]: Jamong6 joined the game
+[03:46:54 INFO]: Jamong6[/125.178.171.248:51577] logged in with entity id 162 at ([world]488.1753059353766, -56.0, 826.9819969711019)
+[03:46:55 WARN]: UUID of added entity already exists: EntityCat['Cat'/639, uuid='c9e93c97-303b-4a3f-a24f-446d3342cc5a', l='ServerLevel[world]', x=415.49, y=72.00, z=755.73, cpos=[25, 47], tl=1314604, v=false]
+[03:46:56 WARN]: UUID of added entity already exists: EntityBee['Bee'/654, uuid='9c112af5-6c3d-4bc2-a195-50b8ed7b5d88', l='ServerLevel[world]', x=576.60, y=63.00, z=897.23, cpos=[36, 56], tl=1533972, v=false]
+[03:48:39 INFO]: Jamong6 lost connection: Disconnected
+[03:48:39 INFO]: Jamong6 left the game
+[03:48:51 INFO]: Doodle lost connection: Disconnected
+[03:48:51 INFO]: Doodle left the game
+Starting org.bukkit.craftbukkit.Main
+System Info: Java 17 (OpenJDK 64-Bit Server VM 17.0.1+12-LTS) Host: Linux 5.11.0-1022-aws (amd64)
+Loading libraries, please wait...
+2021-12-21 03:51:12,397 ServerMain WARN Advanced terminal features are not available in this environment
+[03:51:17 INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:51:18 INFO]: Reloading ResourceManager: Default, bukkit
+[03:51:18 INFO]: Loaded 7 recipes
+[03:51:20 INFO]: Starting minecraft server version 1.18.1
+[03:51:20 WARN]: ****************************
+[03:51:20 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[03:51:20 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[03:51:20 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[03:51:20 WARN]: ****************************
+[03:51:20 INFO]: Loading properties
+[03:51:20 INFO]: This server is running Paper version git-Paper-77 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 5ad1d9a)
+[03:51:20 INFO]: Server Ping Player Sample Count: 12
+[03:51:20 INFO]: Using 4 threads for Netty based IO
+[03:51:20 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:111) ~[paper-1.18.1.jar:git-Paper-77]
+[03:51:20 INFO]: Default game type: SURVIVAL
+[03:51:20 INFO]: Generating keypair
+[03:51:20 INFO]: Starting Minecraft server on *:25565
+[03:51:21 INFO]: Using epoll channel type
+[03:51:21 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:51:21 INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[03:51:21 INFO]: [WorldEdit] Loading WorldEdit v7.2.8+6008-1246d61
+[03:51:22 INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5d3d8a1e]
+[03:51:22 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:51:22 INFO]: [WorldEdit] Enabling WorldEdit v7.2.8+6008-1246d61
+[03:51:22 INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[03:51:22 INFO]: WEPIF: Using the Bukkit Permissions API.
+[03:51:22 INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R1.PaperweightAdapter as the Bukkit adapter
+[03:51:24 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:51:24 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:51:24 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:51:24 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:51:24 INFO]: Preparing level "world"
+[03:51:25 INFO]: Preparing start region for dimension minecraft:overworld
+[03:51:26 INFO]: Preparing spawn area: 0%
+[03:51:26 INFO]: Preparing spawn area: 0%
+[03:51:26 INFO]: Preparing spawn area: 0%
+[03:51:26 INFO]: Preparing spawn area: 0%
+[03:51:27 INFO]: Preparing spawn area: 0%
+[03:51:27 INFO]: Preparing spawn area: 0%
+[03:51:28 INFO]: Time elapsed: 2781 ms
+[03:51:28 INFO]: Preparing start region for dimension minecraft:the_nether
+[03:51:28 INFO]: Preparing spawn area: 0%
+[03:51:28 INFO]: Preparing spawn area: 0%
+[03:51:29 INFO]: Preparing spawn area: 0%
+[03:51:29 INFO]: Preparing spawn area: 0%
+[03:51:30 INFO]: Preparing spawn area: 0%
+[03:51:30 INFO]: Preparing spawn area: 0%
+[03:51:30 INFO]: Time elapsed: 2546 ms
+[03:51:30 INFO]: Preparing start region for dimension minecraft:the_end
+[03:51:30 INFO]: Preparing spawn area: 0%
+[03:51:31 INFO]: Preparing spawn area: 0%
+[03:51:31 INFO]: Preparing spawn area: 0%
+[03:51:32 INFO]: Preparing spawn area: 0%
+[03:51:32 INFO]: Time elapsed: 1581 ms
+[03:51:32 INFO]: Running delayed init tasks
+[03:51:32 INFO]: Done (11.940s)! For help, type "help"
+[03:51:32 INFO]: Timings Reset
+[03:51:33 INFO]: UUID of player Losezip is 164016f8-8881-3a25-b288-06d7990d1544
+[03:51:41 INFO]: Losezip joined the game
+[03:51:41 INFO]: Losezip[/112.168.183.161:61804] logged in with entity id 131 at ([world_nether]118.02711245218106, 128.0, 92.88410941663867)
+[03:51:54 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-77 (MC: 1.18.1) ---
+[03:51:54 ERROR]: The server has not responded for 12 seconds! Creating thread dump
+[03:51:54 ERROR]: ------------------------------
+[03:51:54 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[03:51:54 ERROR]: ------------------------------
+[03:51:54 ERROR]: Current Thread: Server thread
+[03:51:54 ERROR]: 	PID: 22 | Suspended: false | Native: false | State: RUNNABLE
+[03:51:54 ERROR]: 	Stack:
+[03:51:54 WARN]: Can't keep up! Is the server overloaded? Running 12186ms or 243 ticks behind
+[03:51:54 ERROR]: 		co.aikar.timings.TimingHandler.addDiff(TimingHandler.java:151)
+[03:51:54 ERROR]: 		co.aikar.timings.TimingHandler.stopTiming(TimingHandler.java:119)
+[03:51:54 ERROR]: 		net.minecraft.server.level.ServerChunkCache.tickChunks(ServerChunkCache.java:1037)
+[03:51:54 ERROR]: 		net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:923)
+[03:51:54 ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:625)
+[03:51:54 ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1607)
+[03:51:54 ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:480)
+[03:51:54 ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1470)
+[03:51:54 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264)
+[03:51:54 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[03:51:54 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$3933/0x000000080142df40.run(Unknown Source)
+[03:51:54 ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[03:51:54 ERROR]: ------------------------------
+[03:51:54 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[03:51:54 ERROR]: ------------------------------
+[03:52:39 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[03:52:39 INFO]: Jamong6 joined the game
+[03:52:39 INFO]: Jamong6[/125.178.171.248:61927] logged in with entity id 432 at ([world]487.74490633246137, -56.0, 827.060686499579)
+[03:52:51 INFO]: <Losezip> 왜 어제 만들고잤어=
+[03:53:23 INFO]: Losezip issued server command: /kill
+[03:53:30 INFO]: Losezip fell from a high place
+[03:55:30 INFO]: Jamong6 issued server command: /gamemode creative
+[03:55:30 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[03:55:37 INFO]: Jamong6 issued server command: /gamemode survival
+[03:55:37 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[03:55:50 INFO]: Jamong6 tried to swim in lava
+[03:56:10 INFO]: Jamong6 issued server command: /gamemode creative
+[03:56:10 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[03:57:34 INFO]: Jamong6 issued server command: /gamemode survival
+[03:57:34 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[04:00:42 INFO]: Losezip fell from a high place
+[04:00:54 INFO]: <Jamong6> 안녕하세요 로즈집씨
+[04:00:59 INFO]: <Jamong6> 집사이신가요?
+[04:01:09 INFO]: Losezip tried to swim in lava
+[04:01:18 INFO]: <Jamong6> 아니 로즈집씨
+[04:01:18 INFO]: <Losezip> 챗치다 용암에 빠짐
+[04:01:22 INFO]: <Jamong6> 그만죽으세요
+[04:01:26 INFO]: <Jamong6> 오늘도 죽기장인 모드야?
+[04:01:43 INFO]: <Jamong6> 로즈집씨
+[04:01:47 INFO]: <Jamong6> 제가 알려드릴게 있어요
+[04:01:52 INFO]: Jamong6 fell from a high place
+[04:01:53 INFO]: <Losezip> 뭔데
+[04:01:56 INFO]: <Losezip> ㅇㅎ
+[04:02:04 INFO]: <Jamong6> 창고앞으로 집합
+[04:02:32 INFO]: Villager EntityVillager['Villager'/5045, uuid='bcc16879-6b04-4606-addc-73e81e4bae12', l='ServerLevel[world]', x=531.20, y=69.00, z=863.13, cpos=[33, 53], tl=45387, v=true] died, message: 'Villager was squished too much'
+[04:03:00 INFO]: <Jamong6> 꼴이좋아 ㅋㅋ
+[04:03:03 INFO]: <Losezip> 치트 안쓴다며
+[04:03:06 INFO]: <Jamong6> 편의성
+[04:03:13 INFO]: <Jamong6> 이동하는데만 1시간씩써 하루에
+[04:03:21 INFO]: <Jamong6> 대신 모두가 쓸수있게 해놨잖아
+[04:03:30 INFO]: <Losezip> 그러면 지옥천장 베드락도 모으자
+[04:03:33 INFO]: <Jamong6> ?
+[04:03:36 INFO]: <Jamong6> 그걸왜모아
+[04:03:37 INFO]: <Losezip> 아니 메우자
+[04:03:42 INFO]: <Jamong6> 메우자고?
+[04:03:50 INFO]: <Jamong6> 그걸 뭔수로 메워
+[04:03:52 INFO]: <Losezip> 어차피 텔포쓰면되잖아
+[04:03:54 INFO]: <Jamong6> 디코와봐
+[04:08:38 INFO]: Losezip was slain by Hoglin
+[04:09:40 INFO]: Losezip fell from a high place
+[04:15:18 INFO]: Losezip didn't want to live in the same world as Enderman
+[04:16:53 WARN]: UUID of added entity already exists: EntityPig['Pig'/15985, uuid='343e15e0-e93a-4bfa-8677-e5f2c6cc6676', l='ServerLevel[world]', x=-54.92, y=64.00, z=1080.99, cpos=[-4, 67], tl=30911, v=false]
+[04:16:53 WARN]: UUID of added entity already exists: EntitySheep['Sheep'/15987, uuid='e5d8c53d-38c3-47ad-9826-60b77ac36e99', l='ServerLevel[world]', x=-54.53, y=64.00, z=1068.42, cpos=[-4, 66], tl=24761, v=false]
+[04:16:53 WARN]: UUID of added entity already exists: EntityCow['Cow'/15988, uuid='c33a501a-9e07-42ea-aa04-97fdc2aba460', l='ServerLevel[world]', x=-51.29, y=65.00, z=1061.82, cpos=[-4, 66], tl=42821, v=false]
+[04:16:53 WARN]: UUID of added entity already exists: EntityPig['Pig'/15989, uuid='35f3a3c9-3129-44e5-9b9c-7df84442892d', l='ServerLevel[world]', x=-48.79, y=65.00, z=1061.80, cpos=[-4, 66], tl=30871, v=false]
+[04:16:53 WARN]: UUID of added entity already exists: EntitySheep['Sheep'/15999, uuid='70c86ebb-d489-4fb8-98ab-f282517300c3', l='ServerLevel[world]', x=-53.35, y=65.00, z=1049.81, cpos=[-4, 65], tl=40032, v=false]
+[04:23:31 INFO]: Losezip fell from a high place
+[04:26:04 INFO]: Jamong6 tried to swim in lava
+[04:28:50 INFO]: Jamong6 tried to swim in lava
+[04:32:08 INFO]: Losezip fell from a high place
+[04:32:16 INFO]: Villager EntityVillager['Villager'/23186, uuid='ef12f840-4c2b-4fc5-9bdf-b0b4fc97496f', l='ServerLevel[world]', x=531.14, y=69.00, z=863.12, cpos=[33, 53], tl=42224, v=true] died, message: 'Villager was squished too much'
+[04:34:16 INFO]: UUID of player ChanHoDic is 129bdc6d-46d2-3d9c-93fe-1f1f96a13c49
+[04:34:16 INFO]: ChanHoDic joined the game
+[04:34:16 INFO]: ChanHoDic[/182.228.173.8:58320] logged in with entity id 25327 at ([world]164.824628936183, -43.0, 944.8965500588835)
+[04:39:29 INFO]: Losezip tried to swim in lava
+[04:40:07 INFO]: ChanHoDic fell out of the world
+[04:40:41 INFO]: Jamong6 fell out of the world
+[04:43:13 INFO]: UUID of player Doodle is 95e97f46-4119-3538-a521-463974fa130b
+[04:43:13 INFO]: Doodle joined the game
+[04:43:13 INFO]: Doodle[/125.178.168.119:62451] logged in with entity id 30856 at ([world]491.5412264807935, -55.0, 835.0223979144557)
+[04:45:22 INFO]: Doodle lost connection: Disconnected
+[04:45:22 INFO]: Doodle left the game
+[04:47:29 INFO]: Villager EntityVillager['Villager'/28847, uuid='fb1e34d9-b0e0-4dca-a692-e5758d5a0b40', l='ServerLevel[world]', x=531.12, y=69.00, z=863.11, cpos=[33, 53], tl=32079, v=true] died, message: 'Villager was squished too much'
+[04:51:36 INFO]: Losezip was slain by ChanHoDic
+[04:53:06 INFO]: Jamong6 tried to swim in lava
+[04:53:14 INFO]: ChanHoDic tried to swim in lava
+[04:54:12 INFO]: Losezip was slain by Jamong6 using [Dok2]
+[04:55:21 INFO]: ChanHoDic fell from a high place
+[04:56:38 INFO]: Villager EntityVillager['Villager'/33533, uuid='fc0fd0c0-b07a-4001-bbfc-b5536ea6f7aa', l='ServerLevel[world]', x=531.12, y=69.00, z=863.11, cpos=[33, 53], tl=25936, v=true] died, message: 'Villager was squished too much'
+[05:19:05 INFO]: Villager EntityVillager['Villager'/42154, uuid='06568b98-f410-4bbe-861b-4f8e75edf01c', l='ServerLevel[world]', x=531.70, y=69.00, z=863.13, cpos=[33, 53], tl=175372, v=true] died, message: 'Villager was squished too much'
+[05:20:06 WARN]: Jamong6 moved too quickly! -1.4340629655494013,-0.9031272476744903,10.078449028715
+[05:20:36 INFO]: Jamong6 issued server command: /effect give Jamong6 minecraft:hero_of_the_village 36000 6 true
+[05:20:36 INFO]: [Jamong6: Applied effect Hero of the Village to Jamong6]
+[05:21:50 INFO]: Jamong6 issued server command: /gamemode creative
+[05:21:50 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[05:22:44 INFO]: UUID of player Doodle is 95e97f46-4119-3538-a521-463974fa130b
+[05:22:44 INFO]: Doodle joined the game
+[05:22:44 INFO]: Doodle[/125.178.168.119:65369] logged in with entity id 44397 at ([world]564.9065031657693, 66.90953344365954, 791.9848357681991)
+[05:23:00 INFO]: ChanHoDic lost connection: Disconnected
+[05:23:00 INFO]: ChanHoDic left the game
+[05:24:40 INFO]: Losezip fell from a high place
+[05:25:33 INFO]: Losezip fell from a high place
+[05:26:15 INFO]: Losezip tried to swim in lava
+[05:27:06 INFO]: Jamong6 issued server command: /gamemode survival
+[05:27:06 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[05:27:16 INFO]: Jamong6 issued server command: /gamemode creative
+[05:27:16 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[05:31:42 INFO]: UUID of player raccoon508 is b8af4cb4-de5c-3bce-8998-a4fc88d0eb4d
+[05:31:42 INFO]: raccoon508 joined the game
+[05:31:42 INFO]: raccoon508[/220.88.66.90:64511] logged in with entity id 48007 at ([world]124.5, 64.0, 988.5)
+[05:33:05 INFO]: Jamong6 issued server command: /gamemode survival
+[05:33:05 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[05:33:08 INFO]: raccoon508 lost connection: Disconnected
+[05:33:08 INFO]: raccoon508 left the game
+[05:33:10 INFO]: UUID of player raccoon508 is b8af4cb4-de5c-3bce-8998-a4fc88d0eb4d
+[05:33:10 INFO]: raccoon508 joined the game
+[05:33:10 INFO]: raccoon508[/220.88.66.90:64522] logged in with entity id 48607 at ([world]95.95570483110075, 72.0, 846.444364713614)
+[05:33:15 INFO]: Jamong6 issued server command: /gamemode creative
+[05:33:15 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[05:33:37 INFO]: Jamong6 issued server command: /gamemode survival
+[05:33:37 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[05:34:31 WARN]: Jamong6 moved too quickly! -10.423384717473994,0.0,-2.7006887448700354
+[05:34:37 INFO]: Jamong6 lost connection: Disconnected
+[05:34:37 INFO]: Jamong6 left the game
+[05:34:37 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[05:34:37 INFO]: Jamong6 joined the game
+[05:34:37 INFO]: Jamong6[/125.178.171.248:63108] logged in with entity id 49529 at ([world]267.6218880170291, 64.09835927353836, 783.6345128313551)
+[05:35:54 INFO]: raccoon508 has reached the goal [Sky's the Limit]
+[05:36:57 INFO]: Losezip lost connection: Disconnected
+[05:36:57 INFO]: Losezip left the game
+[05:36:58 INFO]: UUID of player Losezip is 164016f8-8881-3a25-b288-06d7990d1544
+[05:36:58 INFO]: Losezip joined the game
+[05:36:58 INFO]: Losezip[/112.168.183.161:56574] logged in with entity id 51125 at ([world]513.2392240100629, -54.894045716124026, 827.6999999880791)
+[05:38:29 INFO]: Jamong6 lost connection: Disconnected
+[05:38:29 INFO]: Jamong6 left the game
+[05:38:48 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[05:38:48 INFO]: Jamong6 joined the game
+[05:38:48 INFO]: Jamong6[/125.178.171.248:63190] logged in with entity id 51762 at ([world]513.0275670469734, -56.0, 829.9808066292821)
+[05:38:52 INFO]: Villager EntityVillager['Villager'/50480, uuid='8d19eb3b-ec7a-4359-af0f-3597f4f99ea1', l='ServerLevel[world]', x=531.11, y=69.00, z=863.12, cpos=[33, 53], tl=33628, v=true] died, message: 'Villager was squished too much'
+[05:39:00 WARN]: Doodle was kicked due to keepalive timeout!
+[05:39:00 INFO]: Doodle lost connection: Timed out
+[05:39:00 INFO]: Doodle left the game
+[05:39:03 INFO]: raccoon508 has made the advancement [Cover Me with Diamonds]
+[05:39:05 INFO]: UUID of player Doodle is 95e97f46-4119-3538-a521-463974fa130b
+[05:39:05 INFO]: Doodle joined the game
+[05:39:05 INFO]: Doodle[/125.178.168.119:64852] logged in with entity id 51877 at ([world]514.5705996004033, -54.29063341621799, 831.9073462232396)
+[05:40:10 INFO]: raccoon508 has made the advancement [The End?]
+[05:40:16 INFO]: raccoon508 has made the advancement [Monster Hunter]
+[05:40:43 INFO]: UUID of player kimchiman is 1fe87347-04f0-30db-a74f-756f1362ec59
+[05:40:43 INFO]: kimchiman joined the game
+[05:40:43 INFO]: kimchiman[/180.70.71.120:62447] logged in with entity id 52762 at ([world]161.74209349875758, -43.0, 952.5277006707977)
+[05:41:19 INFO]: Jamong6 issued server command: /gamemode cre
+[05:41:21 INFO]: Jamong6 issued server command: /gamemode creative
+[05:41:21 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[05:41:44 INFO]: Jamong6 issued server command: /give Jamong6 minecraft:command_block 1
+[05:41:44 INFO]: [Jamong6: Gave 1 [Command Block] to Jamong6]
+[05:42:27 INFO]: raccoon508 fell out of the world
+[05:42:47 INFO]: Jamong6 issued server command: /gamemode survival
+[05:42:47 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[05:43:14 INFO]: Jamong6 issued server command: /gamemode creative
+[05:43:14 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[05:45:10 INFO]: Losezip went up in flames
+[05:46:52 INFO]: raccoon508 has made the advancement [What a Deal!]
+[05:47:05 INFO]: Villager EntityVillager['Villager'/57965, uuid='e1a31502-2b62-4677-98d4-6d63cfa62a0a', l='ServerLevel[world]', x=531.11, y=69.00, z=863.13, cpos=[33, 53], tl=54679, v=true] died, message: 'Villager was squished too much'
+[05:48:15 INFO]: [@: Killed 9 entities]
+[05:48:18 INFO]: [@: Killed 27 entities]
+[05:48:20 INFO]: [@: Killed 16 entities]
+[05:48:21 INFO]: [@: Killed 12 entities]
+[05:48:23 INFO]: [@: Killed 7 entities]
+[05:48:26 INFO]: [@: Killed Ender Pearl]
+[05:48:51 INFO]: Jamong6 issued server command: /gamemode survival
+[05:48:51 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[05:48:57 INFO]: Jamong6 fell out of the world
+[05:49:09 INFO]: Jamong6 issued server command: /gamerule commandBlockOutput false
+[05:49:09 INFO]: [Jamong6: Gamerule commandBlockOutput is now set to: false]
+[05:49:13 INFO]: raccoon508 has made the advancement [Sweet Dreams]
+[05:49:30 INFO]: [@: Killed Ender Pearl]
+[05:49:34 INFO]: [@: Killed Ender Pearl]
+[05:49:35 INFO]: [@: Killed Ender Pearl]
+[05:49:36 INFO]: [@: Killed Ender Pearl]
+[05:49:37 INFO]: [@: Killed Ender Pearl]
+[05:49:38 INFO]: [@: Killed 2 entities]
+[05:49:39 INFO]: Jamong6 issued server command: /gamerule commandBlockOutput false
+[05:49:39 INFO]: [Jamong6: Gamerule commandBlockOutput is now set to: false]
+[05:49:39 INFO]: [@: Killed Ender Pearl]
+[05:49:40 INFO]: [@: Killed Ender Pearl]
+[05:49:42 INFO]: [@: Killed 2 entities]
+[05:49:53 INFO]: raccoon508 fell out of the world
+[05:51:45 INFO]: raccoon508 has made the advancement [Hot Stuff]
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.2808544141748257
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.3520624277886668
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.4201629646997276
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.4850264753306419
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.5465263951091401
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.6045468874371522
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.6912424996587561
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.6912424996587561
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.6912424996587561
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.6912424996587561
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.6912424996587561
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.6912424996587561
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.6912424996587561
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.6081477065670242
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.6912424996587561
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.5693550233926317
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.48232083990217234
+[05:52:35 WARN]: Boat (vehicle of raccoon508) moved wrongly! 0.48190044630484863
+[05:53:19 INFO]: [@: Killed Ender Pearl]
+[05:53:22 INFO]: [@: Killed Ender Pearl]
+[05:53:23 INFO]: [@: Killed Ender Pearl]
+[05:53:24 INFO]: [@: Killed Ender Pearl]
+[05:53:35 INFO]: [@: Killed Ender Pearl]
+[05:53:36 INFO]: [@: Killed Ender Pearl]
+[05:53:37 INFO]: [@: Killed 2 entities]
+[05:53:38 INFO]: [@: Killed Ender Pearl]
+[05:53:39 INFO]: [@: Killed Ender Pearl]
+[05:53:44 INFO]: [@: Killed Ender Pearl]
+[05:53:45 INFO]: [@: Killed 3 entities]
+[05:53:46 INFO]: [@: Killed 3 entities]
+[05:53:48 INFO]: [@: Killed Ender Pearl]
+[05:53:49 INFO]: [@: Killed 3 entities]
+[05:53:50 INFO]: [@: Killed Ender Pearl]
+[05:53:51 INFO]: [@: Killed 2 entities]
+[05:53:53 INFO]: [@: Killed 2 entities]
+[05:53:55 INFO]: [@: Killed 2 entities]
+[05:53:56 INFO]: [@: Killed 5 entities]
+[05:53:58 INFO]: [@: Killed 3 entities]
+[05:53:59 INFO]: [@: Killed 2 entities]
+[05:54:00 INFO]: [@: Killed 3 entities]
+[05:54:03 INFO]: [@: Killed Ender Pearl]
+[05:54:04 INFO]: [@: Killed Ender Pearl]
+[05:54:06 INFO]: [@: Killed 3 entities]
+[05:54:07 INFO]: [@: Killed Ender Pearl]
+[05:54:08 INFO]: [@: Killed Ender Pearl]
+[05:54:11 INFO]: [@: Killed Ender Pearl]
+[05:54:13 INFO]: [@: Killed 3 entities]
+[05:54:14 INFO]: [@: Killed Ender Pearl]
+[05:54:15 INFO]: [@: Killed 8 entities]
+[05:54:16 INFO]: [@: Killed Ender Pearl]
+[05:54:17 INFO]: [@: Killed 2 entities]
+[05:54:19 INFO]: [@: Killed Ender Pearl]
+[05:54:23 INFO]: [@: Killed Ender Pearl]
+[05:54:26 INFO]: [@: Killed Ender Pearl]
+[05:54:28 INFO]: [@: Killed 3 entities]
+[05:54:29 INFO]: [@: Killed 3 entities]
+[05:54:35 INFO]: [@: Killed Ender Pearl]
+[05:54:36 INFO]: [@: Killed Ender Pearl]
+[05:54:37 INFO]: [@: Killed Ender Pearl]
+[05:54:38 INFO]: [@: Killed 3 entities]
+[05:54:39 INFO]: [@: Killed 2 entities]
+[05:54:40 INFO]: [@: Killed 2 entities]
+[05:54:42 INFO]: [@: Killed 3 entities]
+[05:54:44 INFO]: [@: Killed 3 entities]
+[05:54:45 INFO]: [@: Killed 3 entities]
+[05:54:46 INFO]: [@: Killed Ender Pearl]
+[05:54:48 INFO]: [@: Killed Ender Pearl]
+[05:54:49 INFO]: [@: Killed Ender Pearl]
+[05:54:50 INFO]: [@: Killed 2 entities]
+[05:54:52 INFO]: [@: Killed Ender Pearl]
+[05:54:53 INFO]: [@: Killed Ender Pearl]
+[05:54:54 INFO]: [@: Killed 2 entities]
+[05:54:55 INFO]: [@: Killed Ender Pearl]
+[05:54:56 INFO]: [@: Killed 3 entities]
+[05:54:58 INFO]: [@: Killed 2 entities]
+[05:54:59 INFO]: [@: Killed 2 entities]
+[05:54:59 INFO]: Jamong6 issued server command: /gamemode creative
+[05:54:59 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[05:55:00 INFO]: [@: Killed 2 entities]
+[05:55:01 INFO]: [@: Killed 2 entities]
+[05:55:02 INFO]: [@: Killed 2 entities]
+[05:55:04 INFO]: [@: Killed 5 entities]
+[05:55:06 INFO]: [@: Killed 2 entities]
+[05:55:10 INFO]: [@: Killed Ender Pearl]
+[05:55:11 INFO]: Jamong6 issued server command: /gamemode survival
+[05:55:11 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[05:55:11 INFO]: [@: Killed Ender Pearl]
+[05:55:12 INFO]: [@: Killed Ender Pearl]
+[05:55:13 INFO]: [@: Killed Ender Pearl]
+[05:55:16 INFO]: [@: Killed 3 entities]
+[05:55:17 INFO]: [@: Killed 5 entities]
+[05:55:18 INFO]: [@: Killed Ender Pearl]
+[05:55:19 INFO]: [@: Killed Ender Pearl]
+[05:55:23 INFO]: [@: Killed Ender Pearl]
+[05:55:24 INFO]: Losezip was slain by kimchiman
+[05:55:25 INFO]: [@: Killed 2 entities]
+[05:55:27 INFO]: [@: Killed 2 entities]
+[05:55:33 INFO]: [@: Killed 3 entities]
+[05:55:35 INFO]: [@: Killed 2 entities]
+[05:55:36 INFO]: [@: Killed Ender Pearl]
+[05:55:38 INFO]: [@: Killed Ender Pearl]
+[05:55:44 INFO]: [@: Killed Ender Pearl]
+[05:55:45 INFO]: [@: Killed Ender Pearl]
+[05:55:46 INFO]: [@: Killed Ender Pearl]
+[05:55:47 INFO]: [@: Killed 6 entities]
+[05:55:48 INFO]: Jamong6 issued server command: /gamerule commandBlockOutput false
+[05:55:48 INFO]: [Jamong6: Gamerule commandBlockOutput is now set to: false]
+[05:55:48 INFO]: [@: Killed Ender Pearl]
+[05:55:50 INFO]: [@: Killed Ender Pearl]
+[05:55:52 INFO]: [@: Killed Ender Pearl]
+[05:55:53 INFO]: [@: Killed 2 entities]
+[05:55:54 INFO]: [@: Killed 2 entities]
+[05:55:56 INFO]: [@: Killed 2 entities]
+[05:55:57 INFO]: [@: Killed 2 entities]
+[05:55:59 INFO]: [@: Killed 3 entities]
+[05:56:00 INFO]: [@: Killed Ender Pearl]
+[05:56:02 INFO]: [@: Killed Ender Pearl]
+[05:56:03 INFO]: [@: Killed 4 entities]
+[05:56:04 INFO]: [@: Killed 3 entities]
+[05:56:05 INFO]: [@: Killed 3 entities]
+[05:56:07 INFO]: [@: Killed 2 entities]
+[05:56:08 INFO]: [@: Killed Ender Pearl]
+[05:56:15 INFO]: [@: Killed 2 entities]
+[05:56:16 INFO]: [@: Killed 3 entities]
+[05:56:17 INFO]: [@: Killed Ender Pearl]
+[05:56:18 INFO]: [@: Killed Ender Pearl]
+[05:56:22 INFO]: [@: Killed 2 entities]
+[05:56:23 INFO]: [@: Killed Ender Pearl]
+[05:56:24 INFO]: [@: Killed 2 entities]
+[05:56:25 INFO]: [@: Killed 3 entities]
+[05:56:27 INFO]: [@: Killed Ender Pearl]
+[05:56:28 INFO]: [@: Killed Ender Pearl]
+[05:56:30 INFO]: [@: Killed 2 entities]
+[05:56:30 INFO]: Jamong6 issued server command: /locate monument
+[05:56:31 INFO]: [@: Killed 2 entities]
+[05:56:32 INFO]: [@: Killed 2 entities]
+[05:56:35 INFO]: [@: Killed 3 entities]
+[05:56:36 INFO]: [@: Killed 2 entities]
+[05:56:37 INFO]: [@: Killed 2 entities]
+[05:56:38 INFO]: [@: Killed Ender Pearl]
+[05:56:39 INFO]: [@: Killed 3 entities]
+[05:56:41 INFO]: [@: Killed 3 entities]
+[05:56:42 INFO]: [@: Killed Ender Pearl]
+[05:56:45 INFO]: [@: Killed Ender Pearl]
+[05:56:46 INFO]: [@: Killed Ender Pearl]
+[05:56:47 INFO]: [@: Killed Ender Pearl]
+[05:56:52 INFO]: [@: Killed Ender Pearl]
+[05:56:52 INFO]: [@: Killed 2 entities]
+[05:56:54 INFO]: [@: Killed Ender Pearl]
+[05:56:55 INFO]: [@: Killed 2 entities]
+[05:56:56 INFO]: [@: Killed 2 entities]
+[05:56:58 INFO]: [@: Killed Ender Pearl]
+[05:57:03 INFO]: Jamong6 issued server command: /gamerule commandBlockOutput true
+[05:57:03 INFO]: [Jamong6: Gamerule commandBlockOutput is now set to: true]
+[05:57:03 INFO]: [Creeper: Modified entity data of Creeper]
+[05:57:04 INFO]: [Creeper: Modified entity data of Creeper]
+[05:57:05 INFO]: Doodle fell out of the world
+[05:57:06 INFO]: [Creeper: Modified entity data of Creeper]
+[05:57:07 INFO]: Jamong6 issued server command: /gamerule commandBlockOutput false
+[05:57:07 INFO]: [Jamong6: Gamerule commandBlockOutput is now set to: false]
+[05:59:29 INFO]: [@: Killed Ender Pearl]
+[05:59:31 INFO]: [@: Killed 9 entities]
+[05:59:33 INFO]: [@: Killed 6 entities]
+[05:59:34 INFO]: [@: Killed Ender Pearl]
+[05:59:35 INFO]: [@: Killed 2 entities]
+[05:59:37 INFO]: [@: Killed Ender Pearl]
+[05:59:38 INFO]: [@: Killed 4 entities]
+[05:59:39 INFO]: [@: Killed 5 entities]
+[05:59:41 INFO]: [@: Killed 2 entities]
+[05:59:42 INFO]: Losezip fell from a high place
+[05:59:42 INFO]: [@: Killed 3 entities]
+[05:59:44 INFO]: [@: Killed 2 entities]
+[05:59:48 INFO]: [@: Killed 4 entities]
+[05:59:49 INFO]: [@: Killed Ender Pearl]
+[05:59:51 INFO]: [@: Killed 4 entities]
+[05:59:54 INFO]: [@: Killed Ender Pearl]
+[05:59:55 INFO]: [@: Killed 2 entities]
+[05:59:57 INFO]: [@: Killed Ender Pearl]
+[05:59:58 INFO]: [@: Killed 3 entities]
+[06:00:03 INFO]: [@: Killed Ender Pearl]
+[06:00:04 INFO]: [@: Killed 2 entities]
+[06:00:05 INFO]: [@: Killed 2 entities]
+[06:00:07 INFO]: [@: Killed Ender Pearl]
+[06:00:11 INFO]: [@: Killed Ender Pearl]
+[06:00:12 INFO]: [@: Killed Ender Pearl]
+[06:00:15 INFO]: [@: Killed Ender Pearl]
+[06:00:17 INFO]: [@: Killed Ender Pearl]
+[06:00:19 INFO]: [@: Killed Ender Pearl]
+[06:00:20 INFO]: [@: Killed Ender Pearl]
+[06:00:21 INFO]: [@: Killed 3 entities]
+[06:00:23 INFO]: [@: Killed 5 entities]
+[06:00:24 INFO]: [@: Killed Ender Pearl]
+[06:00:26 INFO]: [@: Killed 2 entities]
+[06:00:27 INFO]: [@: Killed Ender Pearl]
+[06:00:28 INFO]: Jamong6 issued server command: /gamemode creative
+[06:00:28 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[06:00:28 INFO]: [@: Killed 3 entities]
+[06:00:30 INFO]: [@: Killed 2 entities]
+[06:00:31 INFO]: [@: Killed Ender Pearl]
+[06:00:32 INFO]: [@: Killed Ender Pearl]
+[06:00:34 INFO]: [@: Killed 2 entities]
+[06:00:35 INFO]: Losezip experienced kinetic energy
+[06:00:37 INFO]: [@: Killed 2 entities]
+[06:00:38 INFO]: [@: Killed Ender Pearl]
+[06:00:41 INFO]: [@: Killed 3 entities]
+[06:00:42 INFO]: [@: Killed 4 entities]
+[06:00:44 INFO]: Jamong6 issued server command: /gamemode creative
+[06:00:45 INFO]: [@: Killed 5 entities]
+[06:00:46 INFO]: [@: Killed 2 entities]
+[06:00:48 INFO]: [@: Killed 7 entities]
+[06:00:50 INFO]: [@: Killed 2 entities]
+[06:00:51 INFO]: [@: Killed Ender Pearl]
+[06:00:55 INFO]: Jamong6 issued server command: /gamemode survival
+[06:00:55 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[06:01:01 INFO]: kimchiman fell out of the world
+[06:02:10 INFO]: kimchiman lost connection: Disconnected
+[06:02:10 INFO]: kimchiman left the game
+[06:07:37 INFO]: Jamong6 lost connection: Disconnected
+[06:07:37 INFO]: Jamong6 left the game
+[06:07:41 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[06:07:41 INFO]: Jamong6 joined the game
+[06:07:41 INFO]: Jamong6[/125.178.171.248:54822] logged in with entity id 76501 at ([world]-455.3609817048475, 40.0, 1652.5612496003862)
+[06:09:09 INFO]: Losezip lost connection: Disconnected
+[06:09:09 INFO]: Losezip left the game
+[06:18:08 INFO]: raccoon508 drowned
+[06:19:24 INFO]: Jamong6 was slain by Guardian
+[06:21:01 INFO]: Villager EntityVillager['Villager'/80541, uuid='88a454a8-09e8-49d6-9756-96129e7a1360', l='ServerLevel[world]', x=531.20, y=69.03, z=863.10, cpos=[33, 53], tl=41311, v=true] died, message: 'Villager was squished too much'
+[06:21:32 INFO]: Villager EntityVillager['Villager'/80540, uuid='3078bab9-3ae0-4a43-b731-d5f7e874a3d5', l='ServerLevel[world]', x=531.18, y=69.00, z=863.13, cpos=[33, 53], tl=48279, v=true] died, message: 'Villager was squished too much'
+[06:23:15 INFO]: Doodle was shot by Skeleton
+[06:24:12 INFO]: Jamong6 issued server command: /gamemode creative
+[06:24:12 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[06:25:26 INFO]: Jamong6 issued server command: /gamemode survival
+[06:25:26 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[06:25:32 INFO]: Jamong6 issued server command: /gamemode creative
+[06:25:32 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[06:25:35 INFO]: raccoon508 lost connection: Disconnected
+[06:25:35 INFO]: raccoon508 left the game
+[06:25:57 INFO]: Jamong6 issued server command: /gamemode survival
+[06:25:57 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[06:26:39 INFO]: Jamong6 issued server command: /gamemode creative
+[06:26:39 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[06:26:42 INFO]: Jamong6 issued server command: /gamemode survival
+[06:26:42 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[06:32:06 INFO]: Villager EntityVillager['Villager'/80542, uuid='964cb25c-dd25-4dd3-bb75-f3aa71448916', l='ServerLevel[world]', x=531.11, y=69.00, z=863.10, cpos=[33, 53], tl=41983, v=true] died, message: 'Villager was squished too much'
+[06:32:21 INFO]: Jamong6 issued server command: /gamemode creative
+[06:32:21 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[06:39:21 INFO]: Jamong6 issued server command: //set minecraft:tinted_glass
+[06:39:24 INFO]: Jamong6 issued server command: //set minecraft:tinted_glass
+[06:39:26 INFO]: Jamong6 issued server command: //set minecraft:tinted_glass
+[06:39:31 INFO]: Jamong6 issued server command: //set minecraft:tinted_glass
+[06:39:36 INFO]: Jamong6 issued server command: //set minecraft:tinted_glass
+[06:39:42 INFO]: Jamong6 issued server command: //set minecraft:tinted_glass
+[06:39:49 INFO]: Jamong6 issued server command: //set minecraft:tinted_glass
+[06:39:52 INFO]: Jamong6 issued server command: //set minecraft:tinted_glass
+[06:48:19 INFO]: Jamong6 issued server command: //set 0
+[06:49:31 INFO]: Jamong6 issued server command: //set minecraft:soul_sandl
+[06:49:36 INFO]: Jamong6 issued server command: //set minecraft:soul_sand
+[06:50:22 INFO]: Jamong6 issued server command: //set 0
+[06:50:31 INFO]: Jamong6 issued server command: //set 0
+[06:50:40 INFO]: Jamong6 issued server command: //set 0
+[06:50:49 INFO]: Jamong6 issued server command: //set 0
+[06:58:54 INFO]: Jamong6 issued server command: //set 9
+[06:59:02 INFO]: Jamong6 issued server command: //set 0
+[06:59:34 INFO]: Jamong6 issued server command: //set 0
+[06:59:36 INFO]: Jamong6 issued server command: //set 9
+[06:59:42 INFO]: Jamong6 issued server command: //set 9
+[06:59:49 INFO]: Jamong6 issued server command: //set 9
+[07:00:02 INFO]: Jamong6 issued server command: //set 9
+[07:01:58 INFO]: Jamong6 issued server command: //set 2
+[07:02:04 INFO]: Jamong6 issued server command: //undo
+[07:02:10 INFO]: Jamong6 issued server command: //undo
+[07:02:13 INFO]: Jamong6 issued server command: //redo
+[07:02:14 INFO]: Jamong6 issued server command: //set 2
+[07:02:29 INFO]: Jamong6 issued server command: //set 2
+[07:02:39 INFO]: Jamong6 issued server command: //set 2
+[07:02:51 INFO]: Jamong6 issued server command: //set 2
+[07:03:47 INFO]: UUID of player Losezip is 164016f8-8881-3a25-b288-06d7990d1544
+[07:03:47 INFO]: Losezip joined the game
+[07:03:47 INFO]: Losezip[/112.168.183.161:57317] logged in with entity id 100860 at ([world]236.97038737086228, -51.0, 965.680767314558)
+[07:04:51 INFO]: Jamong6 lost connection: Disconnected
+[07:04:51 INFO]: Jamong6 left the game
+[07:04:54 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[07:04:54 INFO]: Jamong6 joined the game
+[07:04:54 INFO]: Jamong6[/125.178.171.248:58749] logged in with entity id 101382 at ([world]-460.07819509180166, 64.0, 1640.153143056244)
+[07:18:36 INFO]: Jamong6 issued server command: /gamemode survival
+[07:18:36 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[07:20:43 INFO]: Jamong6 went up in flames
+[07:21:07 INFO]: Jamong6 issued server command: /gamemode creative
+[07:21:07 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[07:21:10 INFO]: Jamong6 issued server command: /gamemode creative
+[07:22:09 INFO]: Jamong6 issued server command: /give Jamong6 minecraft:command_block 1
+[07:22:09 INFO]: [Jamong6: Gave 1 [Command Block] to Jamong6]
+[07:29:22 INFO]: UUID of player Doodle is 95e97f46-4119-3538-a521-463974fa130b
+[07:29:22 INFO]: Doodle lost connection: You logged in from another location
+[07:29:22 INFO]: Doodle left the game
+[07:29:22 INFO]: Doodle joined the game
+[07:29:22 INFO]: Doodle[/125.178.168.119:62313] logged in with entity id 119690 at ([world]286.8249732810207, 65.0, 814.5)
+[07:29:27 INFO]: Jamong6 lost connection: Disconnected
+[07:29:27 INFO]: Jamong6 left the game
+[07:29:40 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[07:29:40 INFO]: Jamong6 joined the game
+[07:29:40 INFO]: Jamong6[/125.178.171.248:52497] logged in with entity id 120146 at ([world]-463.4886533927406, 180.0, 1647.8886610559618)
+[07:29:46 INFO]: <Jamong6> 정민아 범준아
+[07:29:50 INFO]: <Doodle> spd
+[07:29:52 INFO]: <Jamong6> 혹시 지금 서버에 렉있니?
+[07:29:59 INFO]: <Doodle> 난 몰?루
+[07:31:28 INFO]: Villager EntityVillager['Villager'/122590, uuid='36213ff8-5dab-4550-9729-38fdd8b767d2', l='ServerLevel[world]', x=531.12, y=69.00, z=863.10, cpos=[33, 53], tl=29364, v=true] died, message: 'Villager was squished too much'
+[07:33:07 INFO]: Jamong6 issued server command: /give Jamong6 minecraft:command_block 1
+[07:33:07 INFO]: [Jamong6: Gave 1 [Command Block] to Jamong6]
+[07:36:46 INFO]: Jamong6 issued server command: /gamemode survival
+[07:36:46 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[07:36:48 INFO]: Jamong6 issued server command: /give Jamong6 minecraft:command_block 1
+[07:36:48 INFO]: [Jamong6: Gave 1 [Command Block] to Jamong6]
+[07:36:57 INFO]: Jamong6 issued server command: /gamemode creative
+[07:36:57 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[07:37:00 INFO]: Losezip fell from a high place
+[07:37:26 INFO]: Jamong6 issued server command: /gamemode survival
+[07:37:26 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[07:37:28 INFO]: Doodle lost connection: Timed out
+[07:37:28 INFO]: Doodle left the game
+[07:37:30 INFO]: UUID of player Doodle is 95e97f46-4119-3538-a521-463974fa130b
+[07:37:30 INFO]: Doodle joined the game
+[07:37:30 INFO]: Doodle[/125.178.168.119:62345] logged in with entity id 129618 at ([world]272.41584449378416, 67.0, 1072.6748974587522)
+[07:37:45 INFO]: Jamong6 was killed by Guardian using magic
+[07:37:53 INFO]: Jamong6 issued server command: /gamemode creative
+[07:37:53 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[07:39:12 INFO]: Jamong6 issued server command: /gamemode survival
+[07:39:12 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[07:41:21 INFO]: Jamong6 tried to swim in lava
+[07:46:17 INFO]: Losezip lost connection: Disconnected
+[07:46:17 INFO]: Losezip left the game
+[07:46:58 WARN]: Jamong6 moved wrongly!
+[07:50:51 INFO]: Jamong6 issued server command: //wand
+[07:53:07 INFO]: Jamong6 lost connection: Disconnected
+[07:53:07 INFO]: Jamong6 left the game
+[07:53:08 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[07:53:08 INFO]: Jamong6 joined the game
+[07:53:08 INFO]: Jamong6[/125.178.171.248:60430] logged in with entity id 137286 at ([world]272.1273493376132, 67.0, 1054.893636453828)
+[07:53:29 INFO]: UUID of player Doodle is 95e97f46-4119-3538-a521-463974fa130b
+[07:53:29 INFO]: Doodle lost connection: You logged in from another location
+[07:53:29 INFO]: Doodle left the game
+[07:53:29 INFO]: Doodle joined the game
+[07:53:29 INFO]: Doodle[/125.178.168.119:58567] logged in with entity id 137391 at ([world]276.190175154149, 67.0, 1055.4925033093466)
+[07:53:50 INFO]: UUID of player Losezip is 164016f8-8881-3a25-b288-06d7990d1544
+[07:53:50 INFO]: Losezip joined the game
+[07:53:50 INFO]: Losezip[/112.168.183.161:59338] logged in with entity id 137446 at ([world]180.70034294863916, -53.0, 925.0662707974374)
+[07:57:13 INFO]: Losezip experienced kinetic energy
+[08:06:56 INFO]: Jamong6 lost connection: Disconnected
+[08:06:56 INFO]: Jamong6 left the game
+[08:07:05 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[08:07:05 INFO]: Jamong6 joined the game
+[08:07:05 INFO]: Jamong6[/125.178.171.248:53825] logged in with entity id 141371 at ([world]300.282204934483, 81.30416098680952, 934.4339042544555)
+[08:07:11 INFO]: Jamong6 issued server command: /kick Losezip
+[08:07:11 INFO]: Losezip lost connection: Kicked by an operator
+[08:07:11 INFO]: Losezip left the game
+[08:07:11 INFO]: [Jamong6: Kicked Losezip: Kicked by an operator]
+[08:07:15 INFO]: Jamong6 lost connection: Disconnected
+[08:07:15 INFO]: Jamong6 left the game
+[08:07:19 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[08:07:19 INFO]: Jamong6 joined the game
+[08:07:19 INFO]: Jamong6[/125.178.171.248:53832] logged in with entity id 141402 at ([world]300.9626461405425, 67.0, 933.6089656345224)
+[08:07:36 INFO]: UUID of player Losezip is 164016f8-8881-3a25-b288-06d7990d1544
+[08:07:36 INFO]: Losezip joined the game
+[08:07:36 INFO]: Losezip[/112.168.183.161:64187] logged in with entity id 141498 at ([world]261.5, 194.0, 1007.5)
+[08:07:54 INFO]: Losezip fell from a high place
+[08:08:28 INFO]: Losezip tried to swim in lava
+[08:09:19 INFO]: Doodle tried to swim in lava
+[08:12:53 INFO]: Losezip fell off a ladder
+[08:13:25 INFO]: Losezip tried to swim in lava
+[08:35:54 INFO]: Jamong6 issued server command: /gamemode creative
+[08:35:54 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[08:36:05 INFO]: Jamong6 issued server command: /gamemode survival
+[08:36:05 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[08:38:03 WARN]: Doodle was kicked for floating too long!
+[08:38:03 INFO]: Doodle lost connection: Flying is not enabled on this server
+[08:38:03 INFO]: Doodle left the game
+[08:38:07 INFO]: UUID of player Doodle is 95e97f46-4119-3538-a521-463974fa130b
+[08:38:07 INFO]: Doodle joined the game
+[08:38:07 INFO]: Doodle[/125.178.168.119:63730] logged in with entity id 152802 at ([world]270.56901670187796, 67.77080861019918, 1073.9472638880177)
+[08:38:14 INFO]: Jamong6 lost connection: Disconnected
+[08:38:14 INFO]: Jamong6 left the game
+[08:38:15 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[08:38:15 INFO]: Jamong6 joined the game
+[08:38:15 INFO]: Jamong6[/125.178.171.248:60115] logged in with entity id 152813 at ([world]265.0096255780979, 68.02152727054764, 1077.6078980124698)
+[08:38:41 INFO]: Losezip fell off a ladder
+[08:39:40 INFO]: Losezip tried to swim in lava
+[08:40:39 INFO]: Losezip fell from a high place
+[08:40:54 INFO]: Doodle lost connection: Timed out
+[08:40:54 INFO]: Doodle left the game
+[08:41:04 INFO]: UUID of player Doodle is 95e97f46-4119-3538-a521-463974fa130b
+[08:41:04 INFO]: Doodle joined the game
+[08:41:04 INFO]: Doodle[/125.178.168.119:63754] logged in with entity id 155548 at ([world]264.5739444292624, 67.0, 1072.5746290728027)
+[08:41:31 WARN]: Jamong6 moved wrongly!
+[08:42:32 INFO]: Jamong6 issued server command: /gamemode creative
+[08:42:32 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[08:43:01 INFO]: Jamong6 issued server command: /gamemode survival
+[08:43:01 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[08:43:27 INFO]: Losezip fell from a high place
+[08:43:33 INFO]: Losezip lost connection: Disconnected
+[08:43:33 INFO]: Losezip left the game
+[08:43:51 INFO]: Jamong6 issued server command: /gamemode creative
+[08:43:51 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[08:44:37 INFO]: Jamong6 issued server command: /gamemode survival
+[08:44:37 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[08:45:52 INFO]: Jamong6 issued server command: /gamemode creative
+[08:45:52 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[08:46:14 INFO]: Jamong6 issued server command: /gamemode survival
+[08:46:14 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[08:56:07 INFO]: Jamong6 lost connection: Disconnected
+[08:56:07 INFO]: Jamong6 left the game
+[09:01:17 INFO]: Doodle was shot by Skeleton
+[09:01:21 INFO]: Doodle lost connection: Disconnected
+[09:01:21 INFO]: Doodle left the game
+[10:44:22 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[10:44:22 INFO]: Jamong6 joined the game
+[10:44:22 INFO]: Jamong6[/125.178.171.248:58230] logged in with entity id 183337 at ([world]261.66402311736647, 194.0, 1008.6999999880791)
+[11:03:44 INFO]: Jamong6 was killed by Guardian using magic
+[11:09:56 INFO]: Jamong6 issued server command: /gamemode creative
+[11:09:56 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[11:10:46 INFO]: Jamong6 issued server command: /gamemode survival
+[11:10:46 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[11:19:09 INFO]: Jamong6 issued server command: /gamemode creative
+[11:19:09 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[11:25:41 INFO]: Jamong6 issued server command: /gamemode survival
+[11:25:41 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[12:49:24 INFO]: Jamong6 issued server command: /gamemode creative
+[12:49:24 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[14:07:30 INFO]: Jamong6 lost connection: Disconnected
+[14:07:30 INFO]: Jamong6 left the game
+[14:31:38 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[14:31:38 INFO]: Jamong6 joined the game
+[14:31:38 INFO]: Jamong6[/125.178.171.248:63983] logged in with entity id 518081 at ([world]-461.5254189417629, 180.0, 1644.7472863375838)
+[14:33:52 INFO]: Jamong6 issued server command: /gamemode survival
+[14:33:52 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[14:44:17 INFO]: Jamong6 tried to swim in lava
+[14:45:35 INFO]: Villager EntityVillager['Villager'/527085, uuid='bce007ed-b192-4bc2-ac8c-f2094da55b97', l='ServerLevel[world]', x=531.11, y=69.00, z=863.11, cpos=[33, 53], tl=185095, v=true] died, message: 'Villager was squished too much'
+[14:46:46 INFO]: Jamong6 issued server command: /gamemode creative
+[14:46:46 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[14:48:56 INFO]: Jamong6 issued server command: /gamemode survival
+[14:48:56 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[14:49:29 INFO]: Jamong6 lost connection: Disconnected
+[14:49:29 INFO]: Jamong6 left the game
+[17:08:44 INFO]: UUID of player Losezip is 164016f8-8881-3a25-b288-06d7990d1544
+[17:08:44 INFO]: Losezip joined the game
+[17:08:44 INFO]: Losezip[/112.168.183.161:59257] logged in with entity id 528044 at ([world]507.5, -56.4375, 833.5)
+[17:45:26 INFO]: Losezip fell off a ladder
+[17:45:32 WARN]: Losezip moved wrongly!
+[17:51:40 INFO]: Losezip tried to swim in lava
+[17:58:36 INFO]: UUID of player JNJ is 08670133-c181-3310-96c1-1e1efa230317
+[17:58:36 INFO]: JNJ joined the game
+[17:58:36 INFO]: JNJ[/220.121.102.94:56533] logged in with entity id 537450 at ([world]578.9071378941201, 71.0625, 768.4075747662932)
+[18:01:24 INFO]: JNJ lost connection: Disconnected
+[18:01:24 INFO]: JNJ left the game
+[18:09:46 INFO]: Losezip fell from a high place
+[18:10:00 INFO]: Losezip fell off a ladder
+[18:12:05 INFO]: Losezip tried to swim in lava
+[18:12:10 WARN]: Losezip moved wrongly!
+[18:12:48 INFO]: Losezip went up in flames
+[18:13:15 INFO]: Villager EntityVillager['Villager'/544135, uuid='f1d95c48-2e69-47b7-b793-8c8822a2931e', l='ServerLevel[world]', x=531.11, y=69.00, z=863.13, cpos=[33, 53], tl=34565, v=true] died, message: 'Villager was squished too much'
+[18:18:34 INFO]: Losezip fell from a high place
+[18:18:39 INFO]: Losezip lost connection: Disconnected
+[18:18:39 INFO]: Losezip left the game
+[09:23:43 INFO]: UUID of player Losezip is 164016f8-8881-3a25-b288-06d7990d1544
+[09:23:43 INFO]: Losezip joined the game
+[09:23:44 INFO]: Losezip[/112.168.183.161:56628] logged in with entity id 548628 at ([world_nether]100.2838451761719, 157.0, 141.72586886570306)
+[09:23:45 INFO]: Skipping update from removed player 'EntityPlayer['Losezip'/548628, uuid='164016f8-8881-3a25-b288-06d7990d1544', l='ServerLevel[world_nether]', x=100.28, y=157.00, z=141.73, cpos=[6, 8], tl=2751482, v=false, removed=KILLED](Losezip at 100.2838451761719,157.0,141.72586886570306)'
+[09:24:10 INFO]: Losezip fell off a ladder
+[09:26:35 INFO]: Losezip has made the advancement [Best Friends Forever]
+[09:29:34 INFO]: Losezip tried to swim in lava
+[09:50:59 INFO]: Losezip fell off a ladder
+[09:54:19 INFO]: Losezip tried to swim in lava
+[09:55:17 INFO]: Losezip tried to swim in lava
+[09:58:02 INFO]: Losezip was slain by Enderman
+[09:58:24 INFO]: [@: Killed Ender Pearl]
+[09:58:24 INFO]: [@: Killed 2 entities]
+[09:58:26 INFO]: [@: Killed 3 entities]
+[09:58:26 INFO]: [@: Killed 3 entities]
+[09:58:27 INFO]: [@: Killed Ender Pearl]
+[09:58:29 INFO]: [@: Killed Ender Pearl]
+[09:58:30 INFO]: [@: Killed Ender Pearl]
+[09:58:31 INFO]: [@: Killed Ender Pearl]
+[09:58:32 INFO]: [@: Killed 2 entities]
+[09:58:33 INFO]: [@: Killed Ender Pearl]
+[09:58:34 INFO]: [@: Killed Ender Pearl]
+[09:58:35 INFO]: [@: Killed Ender Pearl]
+[09:58:38 INFO]: [@: Killed Ender Pearl]
+[09:58:39 INFO]: [@: Killed Ender Pearl]
+[09:58:40 INFO]: [@: Killed Ender Pearl]
+[09:58:45 INFO]: [@: Killed 2 entities]
+[09:58:49 INFO]: [@: Killed 4 entities]
+[09:58:50 INFO]: [@: Killed 5 entities]
+[09:58:50 INFO]: [@: Killed 3 entities]
+[09:58:52 INFO]: [@: Killed 3 entities]
+[09:58:52 INFO]: [@: Killed Ender Pearl]
+[09:58:53 INFO]: [@: Killed 2 entities]
+[09:58:54 INFO]: [@: Killed 4 entities]
+[09:58:54 INFO]: [@: Killed 5 entities]
+[09:58:55 INFO]: [@: Killed Ender Pearl]
+[09:58:56 INFO]: [@: Killed 3 entities]
+[09:58:57 INFO]: [@: Killed 3 entities]
+[09:58:57 INFO]: [@: Killed Ender Pearl]
+[09:58:58 INFO]: [@: Killed Ender Pearl]
+[09:58:59 INFO]: [@: Killed Ender Pearl]
+[09:59:03 INFO]: [@: Killed 2 entities]
+[09:59:03 INFO]: [@: Killed 2 entities]
+[09:59:04 INFO]: [@: Killed 2 entities]
+[09:59:05 INFO]: [@: Killed Ender Pearl]
+[09:59:06 INFO]: [@: Killed 2 entities]
+[09:59:10 INFO]: Losezip lost connection: Disconnected
+[09:59:10 INFO]: Losezip left the game
+[19:24:27 INFO]: UUID of player Losezip is 164016f8-8881-3a25-b288-06d7990d1544
+[19:24:27 INFO]: Losezip joined the game
+[19:24:27 INFO]: Losezip[/112.168.183.161:50348] logged in with entity id 562737 at ([world_the_end]-228.26539994357995, 57.0625, 39.558208622048355)
+[19:24:43 INFO]: Losezip fell out of the world
+[19:26:20 INFO]: Losezip lost connection: Disconnected
+[19:26:20 INFO]: Losezip left the game
+[19:27:06 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[19:27:06 INFO]: Jamong6 joined the game
+[19:27:06 INFO]: Jamong6[/125.178.171.248:59813] logged in with entity id 563993 at ([world]488.3686426472472, -55.0, 843.1997204938938)
+[19:29:05 INFO]: Jamong6 issued server command: /gamemode creative
+[19:29:05 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[19:29:16 INFO]: Jamong6 issued server command: /gamemode survival
+[19:29:16 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[19:45:05 INFO]: Jamong6 lost connection: Disconnected
+[19:45:06 INFO]: Jamong6 left the game
+[22:42:23 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[22:42:23 INFO]: Jamong6 joined the game
+[22:42:23 INFO]: Jamong6[/125.178.171.248:55964] logged in with entity id 566947 at ([world]261.5, 194.0, 1007.5)
+[23:21:27 INFO]: Jamong6 fell off a ladder
+[23:28:46 INFO]: Jamong6 lost connection: Disconnected
+[23:28:46 INFO]: Jamong6 left the game
+[02:20:49 INFO]: UUID of player Jamong6 is 16b86785-b5f2-36de-bb4d-77104dae1a5f
+[02:20:49 INFO]: Jamong6 joined the game
+[02:20:49 INFO]: Jamong6[/125.178.171.248:57523] logged in with entity id 573825 at ([world]507.5, -56.4375, 833.5)
+[02:21:29 INFO]: Jamong6 issued server command: /gamemode creative
+[02:21:29 INFO]: [Jamong6: Set own game mode to Creative Mode]
+[02:21:52 INFO]: Jamong6 issued server command: /gamemode survival
+[02:21:52 INFO]: [Jamong6: Set own game mode to Survival Mode]
+[02:26:35 INFO]: Villager EntityVillager['Villager'/575684, uuid='600c6dca-5250-4343-b790-3ecd186bfc8b', l='ServerLevel[world]', x=531.11, y=69.00, z=863.10, cpos=[33, 53], tl=36387, v=true] died, message: 'Villager was squished too much'
+[02:27:45 INFO]: Villager EntityVillager['Villager'/575685, uuid='40ce8d8e-b5c8-4e95-959b-85f5f6100149', l='ServerLevel[world]', x=531.12, y=69.00, z=863.11, cpos=[33, 53], tl=30411, v=true] died, message: 'Villager was squished too much'
+[02:28:15 INFO]: Villager EntityVillager['Villager'/575683, uuid='0bb16ba6-c026-4d4d-8293-74f812a9082a', l='ServerLevel[world]', x=531.12, y=69.00, z=863.12, cpos=[33, 53], tl=45022, v=true] died, message: 'Villager was squished too much'
+[02:32:26 INFO]: Villager EntityVillager['Villager'/575686, uuid='cb278666-84bc-4db4-b11f-c7ee0bfc5566', l='ServerLevel[world]', x=531.12, y=69.00, z=863.14, cpos=[33, 53], tl=29217, v=true] died, message: 'Villager was squished too much'
+[02:43:02 INFO]: Villager EntityVillager['Villager'/575682, uuid='11287bbf-5c85-4525-a693-f15dee56d61f', l='ServerLevel[world]', x=531.11, y=69.00, z=863.70, cpos=[33, 53], tl=76366, v=true] died, message: 'Villager was squished too much'
+[02:53:56 INFO]: Villager EntityVillager['Villager'/575689, uuid='4fc164f0-4baa-4afc-9d57-ae07fd9fa726', l='ServerLevel[world]', x=531.12, y=69.00, z=863.10, cpos=[33, 53], tl=38575, v=true] died, message: 'Villager was squished too much'
+[02:57:14 INFO]: Jamong6 lost connection: Disconnected
+[02:57:14 INFO]: Jamong6 left the game
+[05:11:56 INFO]: UUID of player Losezip is 164016f8-8881-3a25-b288-06d7990d1544
+[05:11:56 INFO]: Losezip joined the game
+[05:11:56 INFO]: Losezip[/112.168.183.161:50857] logged in with entity id 579645 at ([world]196.55486725138954, -52.40039946422138, 924.4012676063983)
+[05:17:36 INFO]: Losezip lost connection: Disconnected
+[05:17:36 INFO]: Losezip left the game
